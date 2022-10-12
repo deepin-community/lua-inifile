@@ -1,0 +1,3 @@
+version=3
+opts=filenamemangle=s/.+\/v?(\d\S*)\.tar\.gz/lua-inifile-$1\.tar\.gz/ \
+  https://github.com/bartbes/inifile/tags .*/v?(\d\S*)\.tar\.gz

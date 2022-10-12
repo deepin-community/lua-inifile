@@ -1,0 +1,24 @@
+lua-inifile (1.0-2.1) unstable; urgency=medium
+
+  * Non maintainer upload by the Reproducible Builds team.
+  * No source change upload to rebuild on buildd with .buildinfo files.
+
+ -- Holger Levsen <holger@debian.org>  Mon, 04 Jan 2021 15:38:10 +0100
+
+lua-inifile (1.0-2) unstable; urgency=medium
+
+  * update Vcs-* due to migration to salsa
+  * wrap-and-sort -sat
+  * add myself to uploaders
+  * set compat to 10
+  * set Multi-Arch to foreign (Closes: #918468)
+  * update Standards-Version to 4.3.0, no changes needed
+  * fix lintian warnings
+
+ -- Victor Seva <vseva@debian.org>  Thu, 10 Jan 2019 07:32:21 +0100
+
+lua-inifile (1.0-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #832337)
+
+ -- Jason Pleau <jason@jpleau.ca>  Sun, 24 Jul 2016 10:59:22 -0400

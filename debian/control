@@ -1,0 +1,26 @@
+Source: lua-inifile
+Section: interpreters
+Priority: optional
+Maintainer: Jason Pleau <jason@jpleau.ca>
+Uploaders:
+ Victor Seva <vseva@debian.org>,
+Build-Depends:
+ debhelper (>= 10~),
+ dh-lua,
+Standards-Version: 4.3.0
+Homepage: http://docs.bartbes.com/inifile
+Vcs-Git: https://salsa.debian.org/lua-team/lua-inifile.git
+Vcs-Browser: https://salsa.debian.org/lua-team/lua-inifile
+
+Package: lua-inifile
+Architecture: all
+Multi-Arch: foreign
+Depends:
+ ${misc:Depends},
+Provides:
+ ${lua:Provides},
+XB-Lua-Versions: ${lua:Versions}
+Description: simple, complete ini parser for Lua
+ inifile is a simple, complete ini parser for Lua that intends to preserve
+ as much information as possible, like the order of the file and the stored
+ comments. It is also out-of-the-box compatible with LÖVE.
